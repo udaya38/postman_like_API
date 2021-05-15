@@ -1,0 +1,43 @@
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 2px 13px 20px 0px rgba(141,235,141,0.75);
+  text-align: center;
+}
+
+input[type=text]{
+  width: 350px;
+  padding: 2px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.container{
+  text-align: center;
+}
+
+@media only screen and (max-width: 720px){
+  h3{
+    font-size: 30px;
+  }
+  label{
+    font-size: 25px;
+  }
+  button{
+    padding: 18px;
+    font-size: 20px;
+  }
+  input[type=text]{
+     padding: 13px;
+     font-size: 18px;
+  }
+}
